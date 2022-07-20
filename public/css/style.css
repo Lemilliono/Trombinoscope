@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-bar{
+    flex-direction:row;
+    font-size:20px;
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #111;
+    color:white;
+
+}
+
+.nav_links ul{
+margin: 0; 
+padding: 0;
+display: flex;
+}
+
+.nav_links li {
+display:flex;
+list-style: none;
+}
+
+
+.nav_links li a {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+    display:block;
+    text-decoration:none;
+    color:white;
+    padding: 16px;
+}
+
+.nav_links li:hover a {
+    color: aqua;
+}
+
+
+
+
+footer{ 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    width: 100%;
+    font-family: "Open Sans";
+    color: #fff;
+}
+
+.footer-content{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+
+.footer-content p{
+    max-width: 500px;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.login-page{
+    display: flex;
+    margin-left: 70vh;
+    margin-top:20vh;
+}
+
+.titre{
+    text-align: center;
+    font-size: 44px;
+}
+
+.message{
+    text-align: center;
+}
+
+form {
+    border-color: #fff;
+    border-radius: 20px;
+    border: solid;
+}
+
+
+::placeholder {
+    color:white;
+}
+
+
+.form{
+    background-color: #111;
+}
+
+.tape{    
+    color:white;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    width: 90%;
+    height: 34px;
+    padding: 6px 12px;
+    background-color: #222;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+x-button{
+    border-color:white;
+    border-radius:16px;
+    width: 25%;
+    height: 58px;
+    margin-left:35%;
+    margin-bottom: 15px;
+    background: aqua;
+    color: #fff;
+}
+
+
+.titre {
+    color:aqua;
+}
